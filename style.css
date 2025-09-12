@@ -5,9 +5,10 @@ body::-webkit-scrollbar {
 
 body{
    margin: 0;
+    overflow-x: hidden;
     -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
 }
+
 
 header{
     display: flex;
@@ -36,6 +37,9 @@ header a img{
     max-height: 4em;
 }
 
+main{
+    margin: 0;
+}
 
 .homepage h1{
     text-align: center;
