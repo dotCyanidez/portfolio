@@ -120,6 +120,21 @@ header a img{
 
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer p{
+
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer a:hover{
+    color: gray;
+}
 
 
 @media (max-width: 1099px) {
