@@ -51,34 +51,95 @@ header a img{
 
 }
 
-/*#about-me{*/
-/*    display: flex;*/
-/*    align-items: center;*/
-/*    justify-content: center;*/
-/*    gap: 10px;*/
-/*    margin-top: -55px;*/
-/*    margin-left: auto;*/
-/*    margin-right: auto;*/
-/*    max-width: 80%;*/
 
-/*}*/
+.about-boxes{
+
+    margin: 10px;
+    padding: 15px;
+    /*background-color: whitesmoke;*/
+    /*border-radius: 25px;*/
+    /*box-shadow: 10px 10px 10px gray;*/
+}
 
 .about-boxes h3{
     text-align: center;
-    font-size: x-large;
+    font-size: 3vw;
 }
 
+
+.about-boxes p{
+    font-size: 2vw;
+}
+
+
+#education{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#education img{
+    max-width: 50%;
+    max-height: 100%;
+    min-width: 50%;
+}
 .about-boxes{
-    flex-grow: 4;
-    margin: 10px;
-    padding: 15px;
-    background-color: whitesmoke;
-    border-radius: 25px;
-    box-shadow: 10px 10px 10px gray;
+    min-width: 40%;
+    width: 500px;
+
+    margin: auto;
 }
 
-@media screen and (max-width: 500px) {
-    #about-me {
-        flex-direction: column;
+#work{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+#work img{
+    max-width: 50%;
+    max-height: 100%;
+    min-width: 50%;
+
+
+}
+/*#work .about-boxes{*/
+/*    max-width: 500px;*/
+/*}*/
+
+#projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#projects img{
+    max-width: 50%;
+    max-height: 100%;
+    min-width: 50%;
+
+}
+
+
+
+@media (max-width: 1099px) {
+
+    .about-boxes h3{
+        font-size: 7vw;
+    }
+    .about-boxes p{
+        font-size: 5vw;
+    }
+
+    #education img
+    {
+       min-width: 100%;
+    }
+    #work img
+    {
+        min-width: 100%;
+    }
+    #projects img
+    {
+        min-width: 100%;
     }
 }
