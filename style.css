@@ -1,0 +1,68 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+header nav ul li a:hover{
+    color: gray;
+}
+
+header a img{
+    max-width: 4em;
+    max-height: 4em;
+}
+
+
+
+#Start-Image{
+    display: flex;
+    background-color: aquamarine;
+    justify-content: center;
+    min-height: 400px;
+    min-width: 200px;
+}
+
+#about-me{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: -55px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+
+}
+
+#about-me h3{
+    text-align: center;
+    font-size: x-large;
+}
+
+.about-boxes{
+    flex-grow: 4;
+    margin: 10px;
+    padding: 15px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+@media screen and (max-width: 500px) {
+    #about-me {
+        flex-direction: column;
+    }
+}
