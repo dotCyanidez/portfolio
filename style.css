@@ -16,6 +16,12 @@ header{
     align-items: center;
     padding: 10px;
 }
+
+header a img{
+    max-width: 4em;
+    max-height: 4em;
+}
+
 header nav ul{
     display: flex;
 }
@@ -32,10 +38,7 @@ header nav ul li a:hover{
     color: gray;
 }
 
-header a img{
-    max-width: 4em;
-    max-height: 4em;
-}
+
 
 main{
     margin: 0;
@@ -86,12 +89,12 @@ main{
     margin-top: -4px;
 
 }
-@supports (-moz-appearance:none) {
-    #education {
-        margin-top:-5px;
+/*@supports (-moz-appearance:none) {*/
+/*    #education {*/
+/*        margin-top:-5px;*/
 
-    }
-}
+/*    }*/
+/*}*/
 
 #education img{
     max-width: 50%;
@@ -150,6 +153,10 @@ footer a:hover{
 
 @media (max-width: 1099px) {
 
+    header a{
+        font-size: 3vw;
+
+    }
     .about-boxes{
         width: 100%;
     }
