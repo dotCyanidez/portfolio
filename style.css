@@ -82,7 +82,7 @@ main{
 #education{
     display: flex;
     flex-wrap: wrap;
-    margin: -4px;
+    margin-top: -4px;
 
 }
 
